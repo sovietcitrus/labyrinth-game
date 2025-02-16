@@ -11,23 +11,23 @@ def input_check(question: str, function, confirmation: str):
     print(confirmation)
     time.sleep(1)
   else:
-    print("Invalid input.")
+    print("Invalid input. Please enter YES or NO.")
     input_check(question, function, confirmation)
 
 
 def rules():
-  print("The rules for user input are:")
-  time.sleep(0.5)
+  print("INPUT GUIDE:")
+  time.sleep(1)
   print("For yes or no questions, answer with y, n, yes, or no.")
-  time.sleep(0.5)
-  print("Capitalization does not matter.")
-  time.sleep(0.5)
-  print("For the dungeon, enter your movement direction with:")
-  time.sleep(0.5)
-  print("N for North, S for South, E for East, and W for West.")
-  time.sleep(0.5)
-  print("You may type stop or quit at any time to exit the game.")
   time.sleep(2)
+  print("Capitalization does not matter.")
+  time.sleep(3)
+  print("For the dungeon, enter your movement direction with:")
+  time.sleep(1)
+  print("N for North, S for South, E for East, and W for West.")
+  time.sleep(2)
+  print("You may type stop or quit at any time to exit the game.")
+  time.sleep(3)
   
 #Defines the dungeon rooms and traversal rules
 class Dungeon():
